@@ -2,7 +2,7 @@
   <img src="img/bond-bridge-logo.svg" alt="Bond Bridge logo">
 </p>
 
-<h1 align="center">Welcome to Bond Bridge</h1>
+<h1 align="center">Welcome to Bond Bridge Consulting</h1>
 
 Bond Bridge exists to make connections that matter — bringing people, ideas, and opportunities together in one place. Whether you're here to explore what we offer, learn more about our mission, or simply see what we're building, we're glad you found us.
 
