@@ -1,0 +1,20 @@
+site_name: Bond Bridge
+site_description: Bond Bridge official site
+theme:
+  name: material
+  logo: img/bond-bridge-tag.svg
+  favicon: img/bond-bridge-icon.svg
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Services: services.md
+  - Case Studies: case-studies.md
+  - Team: team.md
