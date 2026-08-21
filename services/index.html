@@ -51,6 +51,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -199,7 +201,9 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Bond Bridge Consulting" class="md-nav__button md-logo" aria-label="Bond Bridge Consulting" data-md-component="logo">
       
@@ -305,10 +309,54 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-we-do" class="md-nav__link">
+  <a href="#data-architecture-management" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What we do
+        Data Architecture &amp; Management
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-integration-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API &amp; Integration Services
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-analytics-modeling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Custom Analytics &amp; Modeling
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analytics-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analytics Optimization
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analytics-application-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analytics Application Development
       
     </span>
   </a>
@@ -384,43 +432,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-we-do" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What we do
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -432,14 +443,28 @@
 
 
 <h1 id="services">Services</h1>
-<p>We offer a range of services designed to help you connect the dots faster and with less friction.</p>
-<h2 id="what-we-do">What we do</h2>
-<ul>
-<li><strong>Strategy &amp; Consulting</strong> — We help you map out the right approach before you commit resources.</li>
-<li><strong>Implementation</strong> — Hands-on support turning plans into working solutions.</li>
-<li><strong>Ongoing Support</strong> — Ongoing guidance to keep things running smoothly as you grow.</li>
-</ul>
-<p>Reach out if you'd like to discuss which service fits your needs best.</p>
+<div class="services-grid">
+<div class="service-card">
+<h2 id="data-architecture-management">Data Architecture &amp; Management</h2>
+<p>Design and build data warehouses and lakes optimized for analytics workloads. ETL pipelines that move data from source systems into your analytics infrastructure. Loan-level and security-level data structuring for fast analytics and compliance reporting.</p>
+</div>
+<div class="service-card">
+<h2 id="api-integration-services">API &amp; Integration Services</h2>
+<p>Build analytics APIs that expose your calculations and data to internal tools, trading systems, risk platforms, and client applications. Migrate workflows from spreadsheets to scalable, auditable APIs. Integrate third-party platforms into your analytics ecosystem.</p>
+</div>
+<div class="service-card">
+<h2 id="custom-analytics-modeling">Custom Analytics &amp; Modeling</h2>
+<p>PnL attribution and reconciliation. Custom prepayment models for loan-level analysis. MSR valuation and management at scale. Model versioning and testing with CI/CD for analytics code. Portfolio analytics including risk metrics and scenario analysis.</p>
+</div>
+<div class="service-card">
+<h2 id="analytics-optimization">Analytics Optimization</h2>
+<p>Speed up existing analytics systems and reduce computational cost. Streamline analytics processes and automate manual steps. Optimize database queries, calculation engines, and data pipelines.</p>
+</div>
+<div class="service-card">
+<h2 id="analytics-application-development">Analytics Application Development</h2>
+<p>Custom web and desktop applications: dashboards, risk platforms, trading tools, compliance reporting systems. Integration with Bloomberg, Reuters, market data providers, portfolio systems, and trading platforms.</p>
+</div>
+</div>
 
 
 
@@ -489,7 +514,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>

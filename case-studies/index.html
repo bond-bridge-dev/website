@@ -51,6 +51,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -199,7 +201,9 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Bond Bridge Consulting" class="md-nav__button md-logo" aria-label="Bond Bridge Consulting" data-md-component="logo">
       
@@ -332,10 +336,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#case-study-1-placeholder-title" class="md-nav__link">
+  <a href="#rmbs-portfolio-analytics-at-scale" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Case Study 1: Placeholder Title
+        RMBS Portfolio Analytics at Scale
       
     </span>
   </a>
@@ -343,10 +347,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#case-study-2-placeholder-title" class="md-nav__link">
+  <a href="#trader-workflow-modernization" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Case Study 2: Placeholder Title
+        Trader Workflow Modernization
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#msr-valuation-platform-at-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MSR Valuation Platform at Scale
       
     </span>
   </a>
@@ -395,54 +410,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#case-study-1-placeholder-title" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Case Study 1: Placeholder Title
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#case-study-2-placeholder-title" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Case Study 2: Placeholder Title
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -454,13 +421,29 @@
 
 
 <h1 id="case-studies">Case Studies</h1>
-<p>A look at how we've helped partners bridge the gap between where they are and where they want to be.</p>
-<h2 id="case-study-1-placeholder-title">Case Study 1: Placeholder Title</h2>
-<p>A brief summary of the challenge, the approach we took, and the outcome achieved.</p>
-<h2 id="case-study-2-placeholder-title">Case Study 2: Placeholder Title</h2>
-<p>A brief summary of the challenge, the approach we took, and the outcome achieved.</p>
+<h2 id="rmbs-portfolio-analytics-at-scale">RMBS Portfolio Analytics at Scale</h2>
+<p><strong>Challenge</strong>
+A growing RMBS fund managing 500,000+ loans faced a critical bottleneck: portfolio managers and risk analysts spent 40% of their time on data preparation and manual prepayment analysis. They had good analytics tools but couldn't scale them to their growing portfolio.</p>
+<p><strong>Solution</strong>
+Bond-Bridge designed and built a custom analytics platform: automated data pipeline pulling loan-level data into a structured database, loan-level prepayment analytics engine, REST API for programmatic access, analytics caching layer, and real-time dashboard for portfolio prepayment exposure.</p>
+<p><strong>Outcome</strong>
+Loan-level analysis time reduced from days to minutes. 100% data accuracy with full audit trail. Team freed up to focus on strategy. Scalable to 5M+ loans without performance degradation.</p>
 <hr />
-<p><em>More case studies coming soon.</em></p>
+<h2 id="trader-workflow-modernization">Trader Workflow Modernization</h2>
+<p><strong>Challenge</strong>
+A fixed income desk relied heavily on fragile Excel-based workflows to analyze bonds. Templates broke easily. Adding new traders meant manual configuration. Audit and compliance were difficult because logic was scattered across cells.</p>
+<p><strong>Solution</strong>
+Bond-Bridge converted manual workflows to a modern analytics platform: analyzed existing analytics logic, built equivalent REST API endpoints that matched analytics exactly, created a lightweight web interface, automated testing to ensure calculations never drift.</p>
+<p><strong>Outcome</strong>
+Calculation speed improved 10x. Automatic, immutable audit trail for compliance. New traders onboarded in hours, not days. Easy to add new analytics without breaking existing workflows.</p>
+<hr />
+<h2 id="msr-valuation-platform-at-scale">MSR Valuation Platform at Scale</h2>
+<p><strong>Challenge</strong>
+A mortgage servicer managing millions of loans needed real-time MSR valuations. Their existing process was manual and spreadsheet-heavy—each valuation run took 6+ hours and was error-prone. Compliance required full audit trails.</p>
+<p><strong>Solution</strong>
+Bond-Bridge built an enterprise MSR valuation platform: custom MSR valuation logic based on loan-level prepayment models, automated data pipeline from origination systems, batch and API-based processing, real-time and scheduled valuation runs, reporting and audit trail dashboard.</p>
+<p><strong>Outcome</strong>
+MSR valuations generated in under 1 hour (6x faster). 100% accuracy with full, auditable calculations. Compliance-ready reporting. Automated daily valuations without manual intervention.</p>
 
 
 
@@ -510,7 +493,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
