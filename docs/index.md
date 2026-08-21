@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="img/bond-bridge-logo.svg" alt="Bond Bridge logo">
-</p>
+![Bond Bridge](img/bond-bridge-logo.svg){ .page-logo }
+
 
 <h1 align="center">Welcome to Bond Bridge Consulting</h1>
 

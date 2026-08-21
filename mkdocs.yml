@@ -12,9 +12,18 @@ theme:
     - navigation.instant
     - navigation.tracking
     - content.code.copy
+    - toc.integrate
 
 nav:
   - Home: index.md
   - Services: services.md
   - Case Studies: case-studies.md
   - Team: team.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
