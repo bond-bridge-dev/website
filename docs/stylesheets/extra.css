@@ -54,3 +54,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.md-header__button.md-logo {
+    background: #fafafa;
+    border-radius: 6px;
+    padding: 0px 0px;
+}
