@@ -3,7 +3,7 @@
 ## RMBS Portfolio Analytics at Scale
 
 **Challenge**
-A growing RMBS fund managing 500,000+ loans faced a critical bottleneck: portfolio managers and risk analysts spent 40% of their time on data preparation and manual prepayment analysis. They had good analytics tools but couldn't scale them to their growing portfolio.
+A growing RMBS fund managing 5,500,000+ loans faced a critical bottleneck: portfolio managers and risk analysts spent 40% of their time on data preparation and manual prepayment analysis. They had good analytics tools but couldn't scale them to their growing portfolio.
 
 **Solution**
 Bond-Bridge designed and built a custom analytics platform: automated data pipeline pulling loan-level data into a structured database, loan-level prepayment analytics engine, REST API for programmatic access, analytics caching layer, and real-time dashboard for portfolio prepayment exposure.
