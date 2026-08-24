@@ -1,0 +1,56 @@
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 3rem;
+}
+
+.team-card {
+}
+
+.team-card img {
+    width: 250px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.team-card p {
+}
+
+.team-identity {
+}
+
+/* Photo */
+.team-identity .team-photo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Name */
+.team-identity h2 {
+    margin: 0.6rem 0 0.15rem;
+    font-size: 1.45rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Title */
+.team-identity .team-title {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Email */
+.team-identity .team-email {
+    margin: 0.15rem 0 0.9rem;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+/* Biography */
+.team-identity .team-description {
+    margin-top: 0;
+}

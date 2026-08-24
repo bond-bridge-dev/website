@@ -1,0 +1,16 @@
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.service-card {
+    background: #f3f4f6;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid #3f7f86;
+}
+
+.service-card h3 {
+    margin-top: 0;
+}
