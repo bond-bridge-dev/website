@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../team.css">
+<link rel="stylesheet" href="style.css">
 
 # Team
 
@@ -10,7 +10,7 @@ Expertise That Scales
 
 <div class="team-identity" markdown=1 >
 
-![Barry Pavel](img/team-barry.jpg){ .team-photo }
+![Barry Pavel](../img/team-barry.jpg){ .team-photo }
 
 ## Barry Pavel
 
@@ -27,7 +27,7 @@ Barry has spent over two decades advising leading asset managers and investment 
 
 <div class="team-identity" markdown=1>
 
-![Yair Lenga](img/team-yair.jpg){ .team-photo }
+![Yair Lenga](../img/team-yair.jpg){ .team-photo }
 
 ## Yair Lenga
 

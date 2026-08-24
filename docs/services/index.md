@@ -1,6 +1,6 @@
 # Services
 
-<link rel="stylesheet" href="../services.css">
+<link rel="stylesheet" href="style.css">
 
 
 <div class="services-grid" markdown>

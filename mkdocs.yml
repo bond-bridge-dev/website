@@ -16,10 +16,10 @@ theme:
 
 nav:
   - Home: index.md
-  - Hero: hero.md
-  - Services: services.md
-  - Case Studies: case-studies.md
-  - Team: team.md
+  - Hero: hero/index.md
+  - Services: services/index.md
+  - Case Studies: case-studies/index.md
+  - Team: team/index.md
   - Contact: contact-us.md
 
 extra_css:
