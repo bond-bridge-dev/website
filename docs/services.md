@@ -1,5 +1,8 @@
 # Services
 
+<link rel="stylesheet" href="../services.css">
+
+
 <div class="services-grid" markdown>
 
 <div class="service-card" markdown>

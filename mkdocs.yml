@@ -20,6 +20,7 @@ nav:
   - Services: services.md
   - Case Studies: case-studies.md
   - Team: team.md
+  - Contact: contact-us.md
 
 extra_css:
   - stylesheets/extra.css

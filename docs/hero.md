@@ -106,7 +106,7 @@ hide:
 
   <div class="home-nav right">
     <a href="../case-studies/">Case Studies</a>
-    <a href="../contact/">Contact</a>
+    <a href="../contact-us/">Contact Us</a>
   </div>
 </div>
 
@@ -117,8 +117,6 @@ hide:
 
 End-to-end expertise in data architecture, analytics infrastructure, and API <br />
 integration for public and private fixed income markets.
-
-[Tell Us What You're Building](#contact){.hero-button}
 
 **Quick conversation. No pitch. Just expertise in fixed income data and analytics.**
 

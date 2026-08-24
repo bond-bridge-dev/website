@@ -1,36 +1,50 @@
+<link rel="stylesheet" href="../team.css">
+
 # Team
 
 Expertise That Scales
 
 25+ years advising fixed income teams on analytics strategy and optimization. Full coverage from data architecture to custom modeling to analytics applications.
 
-
 <div class="team-grid" markdown="1">
 
-<div markdown=1>
+<div class="team-identity" markdown=1 >
 
 ![Barry Pavel](img/team-barry.jpg){ .team-photo }
 
 ## Barry Pavel
 
+25+ Years, Fixed Income & Analytics Strategy
+{ .team-title }
 
-*25+ Years, Fixed Income & Analytics Strategy*
+[barry.pavel@bond-bridge.comm](mailto:barry.pavel@bond-bridge.com)
+{ .team-email }
+
 
 Barry has spent over two decades advising leading asset managers and investment banks on fixed income technology strategy and best practices. He is a recognized expert in fixed income analytics, from RMBS and CLOs to structured credit and derivatives. Barry works with clients to understand their business challenges and design solutions that scale. When you talk to Barry, you are talking to someone who has seen every analytics challenge and knows what works in the real world.
 
 </div>
 
-<div markdown=1>
+<div class="team-identity" markdown=1>
 
 ![Yair Lenga](img/team-yair.jpg){ .team-photo }
 
-
 ## Yair Lenga
 
+Senior Consultant
+{ .team-title }
 
+[yair.lenga@bond-bridge.com](mailto:yair.lenga@bond-bridge.com)
+{ .team-email }
+
+Yair has spent his career at the intersection of fixed income analytics and technology, leading development teams while remaining directly involved in the design and implementation of analytics platforms and infrastructure. His experience spans custom reporting, enterprise data pipelines, large-scale MSR valuation, and analytics automation. He brings a hands-on understanding of both the business requirements behind analytics systems and the technology needed to deliver them. At Bond Bridge, Yair focuses on turning complex analytics and technology challenges into practical, reliable solutions.
+
+
+<!--
 *Head of Engineering, Analytics Technology*
 
 Yair led the development teams responsible for architecting analytics infrastructure and API technology. He has personally designed and implemented some of the most complex analytics solutions—from custom reporting systems to multi-million loan MSR valuations, enterprise data pipelines, and analytics automation at scale. Yair knows how to architect systems that are fast, reliable, and maintainable. His technical leadership ensures every solution we build is production-grade and built to evolve with your business.
+-->
 
 </div>
 
