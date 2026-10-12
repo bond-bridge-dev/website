@@ -19,6 +19,8 @@ Expertise That Scales
 
 :material-email:
 [barry.pavel@bond-bridge.comm](mailto:barry.pavel@bond-bridge.com)
+<br/>
+[<span style="color: #0A66C2">:simple-linkedin:</span> LinkedIn](https://www.linkedin.com/in/barry-pavel/)
 { .team-email }
 
 
@@ -37,6 +39,8 @@ Senior Consultant
 
 :material-email:
 [yair.lenga@bond-bridge.com](mailto:yair.lenga@bond-bridge.com)
+<br/>
+[<span style="color: #0A66C2">:simple-linkedin:</span> LinkedIn](https://www.linkedin.com/in/yair-lenga-4540b34/)
 { .team-email }
 
 Yair has spent his career at the intersection of fixed income analytics and technology, leading development teams while remaining directly involved in the design and implementation of analytics platforms and infrastructure. His experience spans custom reporting, enterprise data pipelines, large-scale MSR valuation, and analytics automation. He brings a hands-on understanding of both the business requirements behind analytics systems and the technology needed to deliver them. At Bond Bridge, Yair focuses on turning complex analytics and technology challenges into practical, reliable solutions.

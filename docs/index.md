@@ -33,6 +33,6 @@ hide:
 End-to-end expertise in data architecture, analytics infrastructure, and API <br />
 integration for public and private fixed income markets.
 
-**Quick conversation. No pitch. Just expertise in fixed income data and analytics.**
+*Reach out to see where we can assist.*
 
 </div>
