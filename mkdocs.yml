@@ -15,8 +15,7 @@ theme:
     - toc.integrate
 
 nav:
-  - Home: index.md
-  - Hero: hero/index.md
+  - Home: home/index.md
   - Services: services/index.md
   - Case Studies: case-studies/index.md
   - Team: team/index.md
