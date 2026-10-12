@@ -18,7 +18,7 @@ Expertise That Scales
 { .team-title }
 
 :material-email:
-[barry.pavel@bond-bridge.comm](mailto:barry.pavel@bond-bridge.com)
+[barry.pavel@bond-bridge.com](mailto:barry.pavel@bond-bridge.com)
 <br/>
 [<span style="color: #0A66C2">:simple-linkedin:</span> LinkedIn](https://www.linkedin.com/in/barry-pavel/)
 { .team-email }
