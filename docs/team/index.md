@@ -17,6 +17,7 @@ Expertise That Scales
 25+ Years, Fixed Income & Analytics Strategy
 { .team-title }
 
+:material-email:
 [barry.pavel@bond-bridge.comm](mailto:barry.pavel@bond-bridge.com)
 { .team-email }
 
@@ -34,6 +35,7 @@ Barry has spent over two decades advising leading asset managers and investment 
 Senior Consultant
 { .team-title }
 
+:material-email:
 [yair.lenga@bond-bridge.com](mailto:yair.lenga@bond-bridge.com)
 { .team-email }
 

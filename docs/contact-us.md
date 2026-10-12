@@ -19,10 +19,15 @@ Whether you have a question about our services, want to discuss a new project, o
 ## Contact Us Directly
 
 **Barry Pavel**
-[barry.pavel@bond-bridge.com](mailto:barry.pavel@bond-bridge.com) · [Chat on Microsoft Teams](https://teams.microsoft.com/l/chat/0/0?users=barry.pavel@bond-bridge.com)
+:material-email:
+[barry.pavel@bond-bridge.com](mailto:barry.pavel@bond-bridge.com) · 
+:simple-microsoftteams:
+[Chat on Microsoft Teams](https://teams.microsoft.com/l/chat/0/0?users=barry.pavel@bond-bridge.com)
 
 **Yair Lenga**
-[yair.lenga@bond-bridge.com](mailto:yair.lenga@bond-bridge.com) · [Chat on Microsoft Teams](https://teams.microsoft.com/l/chat/0/0?users=yair.lenga@bond-bridge.com)
+:material-email:
+[yair.lenga@bond-bridge.com](mailto:yair.lenga@bond-bridge.com) · :simple-microsoftteams:
+[Chat on Microsoft Teams](https://teams.microsoft.com/l/chat/0/0?users=yair.lenga@bond-bridge.com)
 
 ## Notes
 
